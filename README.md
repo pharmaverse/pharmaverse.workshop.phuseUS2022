@@ -7,4 +7,6 @@ Welcome to the Github repo containing all the materials including the hands-on e
 - Starter programs to be used for the exercises
 - Input data xpt file to be used for the exercises
 
+_Optional pre-read: [Introduction to R for the Statistical Programmer](https://atorus-research.github.io/phuse_intro_to_r_2021_website/) (see Content & Resources sections)_
+
 <img width="80" height="90" src="https://user-images.githubusercontent.com/82581364/133069864-04bb3c21-2fcb-40f3-83ff-c15f9365afe6.png">
