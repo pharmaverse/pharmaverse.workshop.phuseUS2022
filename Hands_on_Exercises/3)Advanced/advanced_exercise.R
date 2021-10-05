@@ -2,7 +2,7 @@
 # Hands-on Exercise: Advanced 
 # (Best for those with 3+ years of R and ADaM experience)
 #  
-# See "ExerciseSheet_advanced.doc" for all exercise questions, and if you get stuck ask for help from one of our facilitators or consult "SolutionSheet_advanced.doc"
+# See "ExerciseSheet_advanced.docx" for all exercise questions, and if you get stuck ask for help from one of our facilitators or consult "SolutionSheet_advanced.docx"
 # 
 # This program is to be used as a starter template as you work through the exercises
 # -----------------------------------------------------------------------------------
