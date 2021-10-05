@@ -2,7 +2,7 @@
 # Hands-on Exercise: Beginner 
 # (Best for those with limited or no prior R or ADaM experience)
 #  
-# See "ExerciseSheet_beginner.doc" for all exercise questions, and if you get stuck ask for help from one of our facilitators or consult "SolutionSheet_beginner.doc"
+# See "ExerciseSheet_beginner.docx" for all exercise questions, and if you get stuck ask for help from one of our facilitators or consult "SolutionSheet_beginner.docx"
 # 
 # This program is to be used as a starter template as you work through the exercises
 # -----------------------------------------------------------------------------------
