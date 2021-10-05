@@ -17,7 +17,7 @@ library(haven)
 
 # Read in the input data from Github using haven
 
-advs_temp <- read_xpt(url("https://github.com/xxx/advs_temp.xpt"))
+advs_temp <- read_xpt(url("https://github.com/Roche-GSK/admiral.phuse.workshop/raw/main/Hands_on_Exercises/advs_temp.xpt"))
 
 # Run the following code to create the required baseline variables
 
@@ -42,4 +42,3 @@ advs <- advs_temp %>%
  
     # Sort the data frame
     arrange(USUBJID, PARAMCD, ADT)
-
