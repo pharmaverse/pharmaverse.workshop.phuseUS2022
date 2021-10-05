@@ -2,7 +2,7 @@
 # Hands-on Exercise: Intermediate 
 # (Best for those with 1-2 years of R and ADaM experience)
 #  
-# See "ExerciseSheet_intermediate.doc" for all exercise questions, and if you get stuck ask for help from one of our facilitators or consult "SolutionSheet_intermediate.doc"
+# See "ExerciseSheet_intermediate.docx" for all exercise questions, and if you get stuck ask for help from one of our facilitators or consult "SolutionSheet_intermediate.docx"
 # 
 # This program is to be used as a starter template as you work through the exercises
 # -----------------------------------------------------------------------------------
