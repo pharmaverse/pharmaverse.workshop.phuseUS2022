@@ -8,7 +8,7 @@ Welcome to the Github repo containing all the materials including the hands-on e
 - Input data xpt file to be used for the exercises
 
 ### RStudio Cloud:
-You can find the RStudio Cloud project associated with the workshop at this [link](https://rstudio.cloud/spaces/185878/projects)
+You can find the RStudio Cloud project associated with the workshop at this [link](https://rstudio.cloud/project/3100580)
 
 _Thanks to R/Pharma for allowing us to make use of this workspace for our workshop!_
 
