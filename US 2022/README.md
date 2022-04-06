@@ -1,4 +1,4 @@
-# PHUSE US Connect 2022 admiral Workshop
+# PHUSE US Connect 2022 pharmaverse Workshop
 Welcome to the Github repo containing all the materials including the hands-on exercises for the PHUSE US Connect 2022 admiral workshop.
 
 ### Here you will find:
