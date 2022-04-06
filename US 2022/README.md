@@ -1,9 +1,9 @@
-# PHUSE EU Connect 2021 admiral Workshop
-Welcome to the Github repo containing all the materials including the hands-on exercises for the PHUSE EU Connect 2021 admiral workshop.
+# PHUSE US Connect 2022 admiral Workshop
+Welcome to the Github repo containing all the materials including the hands-on exercises for the PHUSE US Connect 2022 admiral workshop.
 
 ### Here you will find:
 - Slide-deck as shown at the workshop
-- Hands-on Exercise sheets (split by Beginner/Intermediate/Advanced levels)
+- Hands-on Exercise sheets (split by Beginner/Advanced levels)
 - Starter programs to be used for the exercises
 - Input data xpt file to be used for the exercises
 
