@@ -15,7 +15,7 @@ library(stringr)
 library(haven)
 
 # Read in the input data from Github using haven
-advs_temp <- read_xpt(url("https://github.com/pharmaverse/admiral.phuse.workshop/raw/main/US%202022/data/advs_temp.xpt"))
+advs_temp <- read_xpt(url("https://github.com/pharmaverse/pharmaverse.workshop.phuseUS2022/raw/main/data/advs_temp.xpt"))
 
 # Run the following code to create the required baseline variables
 
