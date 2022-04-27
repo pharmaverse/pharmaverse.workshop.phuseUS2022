@@ -18,20 +18,19 @@ library(stringr)
 library(haven)
 library(rtables)
 
-# Read in the input data from Github using haven
-
-advs_temp <- read_xpt(url("https://github.com/Roche-GSK/admiral.phuse.workshop/raw/main/Hands_on_Exercises/advs_temp.xpt"))
+# reads the advs from admiral
+advs <- admiral::advs
 
 # create ADSL 
 adsl <- advs %>% 
-  select(STUDYID, USUBJID) %>% 
-  group_by(STUDYID, USUBJID) %>% 
-  slice(1) %>%
-  mutate(ARM = factor(sample(c("ARM A","ARM B"), 1, rep = TRUE)))
+  group_by(STUDYID, USUBJID, ARM) %>% 
+  group_keys() 
 
 # merge the ADSL vars to ADVS
 advs <- left_join(advs, adsl) %>% 
-  filter(VSTEST == "Temperature")
+  filter(VSTEST == "Temperature") %>% 
+  ungroup() %>% 
+  rename(VISITN = VISITNUM)
 
 
 # create table layout
@@ -70,7 +69,7 @@ lyt <- basic_table() %>%
   split_rows_by("VISIT") %>%
   analyze(vars = "AVAL", afun = mean, format = "xx.x")
 
-result <- build_table(lyt = lyt, df = advs, alt_count_df = adsl)
+result <- build_table(lyt = lyt, df = advs, alt_counts_df = adsl)
 result
 
 
