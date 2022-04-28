@@ -101,5 +101,5 @@ lyt <- basic_table() %>%
   split_rows_by("VISIT") %>%
   analyze(vars = "AVAL", afun = s_summary, format = "xx.x")
 
-result <- build_table(lyt = lyt, df = advs, alf_count_df = adsl)
+result <- build_table(lyt = lyt, df = advs, alt_counts_df = adsl)
 result
