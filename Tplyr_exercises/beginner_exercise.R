@@ -19,14 +19,11 @@ library(Tplyr)
 ## Setup data for the exercise ----
 
 # Read in the input data from Github using haven
-
-#advs_temp <- read_xpt(url("https://github.com/pharmaverse/pharmaverse.workshop.phuseUS2022/raw/main/data/advs_temp.xpt"))
 advs <- admiral::advs
 
 # create ADSL 
-adsl <- advs %>% 
-  group_by(STUDYID, USUBJID, ARM) %>% 
-  group_keys()
+adsl <- admiral::adsl %>% 
+  select(STUDYID, USUBJID, ARM)
 
 # merge the ADSL vars to ADVS
 advs <- left_join(advs, adsl) %>% 
