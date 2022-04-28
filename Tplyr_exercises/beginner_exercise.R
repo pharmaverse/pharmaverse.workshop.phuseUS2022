@@ -18,10 +18,10 @@ library(Tplyr)
 
 ## Setup data for the exercise ----
 
-# Read in the input data from Github using haven
+# Load advs from admiral
 advs <- admiral::advs
 
-# create ADSL 
+# Load adsl from admiral
 adsl <- admiral::adsl %>% 
   select(STUDYID, USUBJID, ARM)
 
