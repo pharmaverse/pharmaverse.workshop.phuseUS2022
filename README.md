@@ -8,7 +8,7 @@ Welcome to the Github repo containing all the materials including the hands-on e
 - Input data xpt file to be used for the exercises
 
 ### RStudio Cloud:
-You can find the RStudio Cloud project associated with the workshop at this [link](https://rstudio.cloud/project/3100580)
+You can find the RStudio Cloud project associated with the workshop at this [link](https://rstudio.cloud/project/3979742)
 
 ### Optional pre-read: 
 [Introduction to R for the Statistical Programmer](https://atorus-research.github.io/phuse_intro_to_r_2021_website/) (see Content & Resources sections)
