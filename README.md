@@ -3,7 +3,7 @@ Welcome to the Github repo containing all the materials including the hands-on e
 
 ### Here you will find:
 - Slide-deck as shown at the workshop
-- Hands-on Exercise sheets (split by Beginner/Advanced levels)
+- Hands-on Exercise sheets (split by Beginner/Advanced levels _- for admiral only_)
 - Starter programs to be used for the exercises
 - Input data xpt file to be used for the exercises
 
